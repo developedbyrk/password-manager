@@ -34,33 +34,33 @@ A beginner-friendly Python command-line application to store and retrieve passwo
 
 2. **Options:**
 
-add – Add a new username and password
+   add – Add a new username and password
 
-view – View all saved credentials
+   view – View all saved credentials
 
-find – Retrieve the password for a specific username
+   find – Retrieve the password for a specific username
 
-q – Quit the program
+   q – Quit the program
 
 **Example:**
 
-Choose an option: add, view, find (q to quit): add
+   Choose an option: add, view, find (q to quit): add
 
-Enter username: alice
+   Enter username: alice
 
-Enter password: mypassword123
-
-
-Choose an option: view, add, find (q to quit): view
-
-alice|mypassword123
+   Enter password: mypassword123
 
 
-Choose an option: find
+   Choose an option: view, add, find (q to quit): view
 
-Enter your username to get the password: alice
+   alice|mypassword123
 
-Your password is mypassword123
+
+   Choose an option: find
+
+   Enter your username to get the password: alice
+
+   Your password is mypassword123
 
 
 
